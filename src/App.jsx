@@ -9,35 +9,35 @@ import Contact from './pages/Contact';
 import Footer from "./pages/Footer";
 
 function App() {
-  return (
-    <Router>
-      <Navbar />
+  return (
+    <Router basename="/clement-mathole/"> 
+      <Navbar />
 
-      <main>
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                  <Home />
-                <hr />
-                <TechMarquee />
-                <hr />
-                <Services />
-                <hr />
-                
-              </>
-            }
-          />
+      <main>
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                  <Home />
+                <hr />
+                <TechMarquee />
+                <hr />
+                <Services />
+                <hr />
+                
+              </>
+            }
+          />
 
-          <Route path="/about" element={<About />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-        <Footer />
-      </main>
-    </Router>
-  );
+          <Route path="/about" element={<About />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+      </main>
+    </Router>
+  );
 }
 
 export default App;
