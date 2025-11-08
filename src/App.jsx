@@ -10,7 +10,7 @@ import Footer from "./pages/Footer";
 
 function App() {
   return (
-    <Router basename="/clement-mathole/"> 
+    <Router basename="/"> 
       <Navbar />
 
       <main>
