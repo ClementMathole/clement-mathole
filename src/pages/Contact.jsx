@@ -9,14 +9,14 @@ const Contact = () => {
                 <div id="contact-methods">
                     <div id="social">
                         <h3 className="method">Social Media</h3>
-                        <p><a href="#">Facebook</a></p>
-                        <p><a href="#">LinkedIn</a></p>
-                        <p><a href="#">Instagram</a></p>
+                        <p><a href="https://www.facebook.com/share/1AXZXmGeQt/">Facebook</a></p>
+                        <p><a href="https://www.linkedin.com/in/clement-mathole-2a5748309">LinkedIn</a></p>
+        
                     </div>
                     <div id="general">
                         <div>
                             <h3 className="method">Or send <br /> a quick email</h3>
-                            <a href="">Send Email</a>
+                            <a href="mailto:clementmathole003@gmail.com">Send Email</a>
                         </div>
                     </div>
                 </div>
