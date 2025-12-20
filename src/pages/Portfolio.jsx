@@ -25,7 +25,7 @@ const highlight = [
     logo: [flutter, firebase],
     title: 'Smart Product Tracker',
     descriptions: 'A Flutter mobile app that lets users track product expiry dates and receive real-time notifications. Powered by Gemini AI, it provides nutritional data for each product, combining mobile development with AI integration.',
-    link: 'https://github.com/ClementMathole/CapableZA',
+    link: '',
     linkIcon: linkIcon
   },
   {
