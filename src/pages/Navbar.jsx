@@ -10,8 +10,8 @@ const Navbar = () => {
   return (
     <>
       <nav className={menuOpen ? "nav open" : "nav"}>
-        <a href="#" id="mail">
-          clementmathole@gmail.com <img src={mailIcon} alt="email" width={15} />
+        <a href="mailto:clementmathole003@gmail.com" id="mail">
+          clementmathole003@gmail.com <img src={mailIcon} alt="email" width={15} />
         </a>
 
         <ul className={menuOpen ? "nav-links active" : "nav-links"}>
@@ -25,11 +25,7 @@ const Navbar = () => {
             >
            Home
             </Link>
-          </li>
-          <li><Link to="/about" onClick={() => setMenuOpen(false)}>About</Link></li>
-          
-          <li><a href="#services" onClick={() => setMenuOpen(false)}>Services</a></li>
-
+          </li>
           <li><Link to="/portfolio" onClick={() => setMenuOpen(false)}>Portfolio</Link></li>
 
           <li><Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link></li>
