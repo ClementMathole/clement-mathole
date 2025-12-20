@@ -11,7 +11,6 @@ const Contact = () => {
                         <h3 className="method">Social Media</h3>
                         <p><a href="https://www.facebook.com/share/1AXZXmGeQt/">Facebook</a></p>
                         <p><a href="https://www.linkedin.com/in/clement-mathole-2a5748309">LinkedIn</a></p>
-        
                     </div>
                     <div id="general">
                         <div>
