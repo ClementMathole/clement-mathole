@@ -15,7 +15,7 @@ const Home = () => {
                     <p>I design, build, and deploy seamless digital experiences brusing modern technologies. From responsive <br />front-ends to efficient back-end systems, I bring ideas to life through clean code and intuitive design.</p>
                     <div className="action-btns">
                         <button id='my-work' onClick={() => navigate("/portfolio")}>My Work</button>
-                        <button id='l-connect'>Let’s Connect <img src={emailIcon} alt="mail icon" width={18}/></button>
+                        <button id='l-connect' onClick={() => navigate("/contact")}>Let’s Connect <img src={emailIcon} alt="mail icon" width={18}/></button>
                     </div>
                 </div>
             </section>
